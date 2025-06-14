@@ -1,0 +1,42 @@
+:root {
+    --primary-background-color: white;
+    --secondary-background-color: #fdfdfd;
+    --tertiary-background-color: #f5f4f4;
+
+    --decoration-line-color: #f5f5f6;
+    --decoration-dot-color: #f0f0f0;
+
+    --border-color: #eeeeef;
+
+    --primary-text-color: #09090b;
+    --secondary-text-color: #71717b;
+
+    /* fonts */
+    --font-pixelify: 'Pixelify Sans', sans-serif;
+    --font-ibm-plex-mono: 'IBM Plex Mono', monospace;
+}
+
+body {
+    background-color: var(--primary-background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    font-family: var(--font-ibm-plex-mono);
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.25rem;
+}
+
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}

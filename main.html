@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=verified" />
+
+    <title>Hitesh Chaudhari</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="css/root.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- scripts -->
+    <script src="script/designation.js"></script>
+</head>
+
+<body>
+    <div class="main-container">
+
+        <!-- profile-cover -->
+        <div class="profile-cover">
+            <h1 class="profile-name-initials">HC</h1>
+        </div>
+
+        <!-- profile -->
+        <div class="profile">
+            <div class="profile-image-container">
+                <img class="profile-image" src="assets/images/profile-image.jpg" alt="profile-image">
+            </div>
+            <div class="profile-info-container">
+                <div class="profile-blank-container"></div>
+                <div class="profile-name-container">
+                    <h3>Hitesh Chaudhari</h3>
+                    <img class="verified-badge-icon" src="assets/icons/verified_badge_icon.png"
+                        alt="verified_badge_icon">
+                </div>
+                <div class="profile-designation-container">
+                    <h1 id="randomDesignation"></h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- profile details -->
+        <div class="profile-details-container">
+            <div class="profile-detail-item">
+                <div class="profile-detail-item-icon-container">
+                    <img class="profile-detail-item-icon" src="assets/icons/code_icon.svg" alt="code_icon">
+                </div>
+                <p class="profile-detail-item-text">Software Developer & UI/UX Designer</p>
+            </div>
+            <div class="profile-detail-item">
+                <div class="profile-detail-item-icon-container">
+                    <img class="profile-detail-item-icon" src="assets/icons/bulb_icon.svg" alt="bulb_icon">
+                </div>
+                <p class="profile-detail-item-text">Freelancer - building digital products for businesses
+            </div>
+            <div class="profile-detail-item">
+                <div class="profile-detail-item-icon-container">
+                    <img class="profile-detail-item-icon" src="assets/icons/location_icon.svg" alt="location_icon">
+                </div>
+                <p class="profile-detail-item-text">Pune, Maharashtra, India</p>
+            </div>
+            <div class="profile-detail-item">
+                <div class="profile-detail-item-icon-container">
+                    <img class="profile-detail-item-icon" src="assets/icons/email_icon.svg" alt="email_icon">
+                </div>
+                <p class="profile-detail-item-text">hiteshchaudhari1998@gmail.com</p>
+            </div>
+            <div class="profile-detail-item">
+                <div class="profile-detail-item-icon-container">
+                    <img class="profile-detail-item-icon" src="assets/icons/language_icon.svg" alt="language_icon">
+                </div>
+                <p class="profile-detail-item-text">English, Marathi, Hindi</p>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- socials -->
+        <div class="social-grid">
+            <a class="social-item" href="https://github.com/DevHitesh29">
+                <img class="social-item-icon" src="assets/images/github.webp" alt="github_icon">
+                <div class="social-item-text-container">
+                    <p class="social-item-text">Github</p>
+                    <p class="social-item-subtext">Hitesh29</p>
+                </div>
+                <img class="redirect-icon" src="assets/icons/redirect.svg" alt="redirect_icon">
+            </a>
+            <a class="social-item" href="https://www.linkedin.com/in/hitesh-chaudhari-0866b316b/">
+                <img class="social-item-icon" src="assets/images/linkedin.webp" alt="linkedin_icon">
+                <div class="social-item-text-container">
+                    <p class="social-item-text">LinkedIn</p>
+                    <p class="social-item-subtext">Hitesh Chaudhari</p>
+                </div>
+                <img class="redirect-icon" src="assets/icons/redirect.svg" alt="redirect_icon">
+            </a>
+            <a class="social-item" href="https://www.instagram.com/hiteshchaudhari000/">
+                <img class="social-item-icon" src="assets/images/instagram.webp" alt="instagram_icon">
+                <div class="social-item-text-container">
+                    <p class="social-item-text">Instagram</p>
+                    <p class="social-item-subtext">hiteshchaudhari000</p>
+                </div>
+                <img class="redirect-icon" src="assets/icons/redirect.svg" alt="redirect_icon">
+            </a>
+            <a class="social-item" href="https://x.com/hitesh291998">
+                <img class="social-item-icon" src="assets/images/x.webp" alt="x_icon">
+                <div class="social-item-text-container">
+                    <p class="social-item-text">X</p>
+                    <p class="social-item-subtext">@hitesh291998</p>
+                </div>
+                <img class="redirect-icon" src="assets/icons/redirect.svg" alt="redirect_icon">
+            </a>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- about -->
+        <div class="about-container">
+            <div class="heading-container">
+                <h1 class="heading">About</h1>
+            </div>
+            <div class="about-description-container">
+                <p class="about-description">Hello, World! I am Hitesh Chaudhari — a Software Developer & UI/UX Designer
+                    passionate about creating high-performance, user-centric software solutions with intuitive and
+                    engaging designs.
+                </p>
+                <p class="about-description">With 5+ years of experience, I specialize in building high-quality web and
+                    mobile applications using modern front-end technologies. Beyond
+                    work, I love exploring new technologies and turning ideas into reality through personal projects.
+                </p>
+                <p class="about-description">Let's connect and collaborate!
+                </p>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- stack -->
+        <div class="stack-container">
+            <div class="heading-container">
+                <h1 class="heading">Stack</h1>
+            </div>
+            <div class="stack-list">
+                <a href="https://www.figma.com/" target="_blank">
+                    <img class="stack-icon tooltip" src="assets/icons/figma.svg" alt="figma">
+                </a>
+                <a href="https://html.spec.whatwg.org/" target="_blank">
+                    <img class="stack-icon" src="assets/icons/html.png" alt="html">
+                </a>
+                <a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank">
+                    <img class="stack-icon" src="assets/icons/css.svg" alt="css">
+                </a>
+                <a href="https://www.typescriptlang.org/" target="_blank">
+                    <img class="stack-icon" src="assets/icons/typescript.svg" alt="typescript">
+                </a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                    <img class="stack-icon" src="assets/icons/js.svg" alt="js">
+                </a>
+                <a href="https://react.dev/" target="_blank">
+                    <img class="stack-icon" src="assets/icons/react.svg" alt="react">
+                </a>
+                <a href="https://nextjs.org/" target="_blank">
+                    <img class="stack-icon" src="assets/icons/nextjs.svg" alt="nextjs">
+                </a>
+                <a href="https://nodejs.org/en" target="_blank">
+                    <img class="stack-icon" src="assets/icons/nodejs.svg" alt="nodejs">
+                </a>
+                <a href="https://go.dev/" target="_blank">
+                    <img class="stack-icon" src="assets/icons/go.svg" alt="go">
+                </a>
+                <a href="https://www.mongodb.com/" target="_blank">
+                    <img class="stack-icon" src="assets/icons/mongodb.svg" alt="mongodb">
+                </a>
+                <a href="https://www.mysql.com/" target="_blank">
+                    <img class="stack-icon" src="assets/icons/mysql.svg" alt="mysql">
+                </a>
+                <a href="https://git-scm.com/" target="_blank">
+                    <img class="stack-icon" src="assets/icons/git.svg" alt="git">
+                </a>
+                <a href="https://chatgpt.com/" target="_blank">
+                    <img class="stack-icon" src="assets/icons/chatgpt.svg" alt="chatgpt">
+                </a>
+                <a href="https://firebase.google.com/" target="_blank">
+                    <img class="stack-icon" src="assets/icons/firebase.svg" alt="firebase">
+                </a>
+                <a href="https://supabase.com/" target="_blank">
+                    <img class="stack-icon" src="assets/icons/supabase.jpeg" alt="supabase">
+                </a>
+                <a href="https://www.python.org/" target="_blank">
+                    <img class="stack-icon" src="assets/icons/python.svg" alt="python">
+                </a>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- blog -->
+        <div class="blog-container">
+            <div class="heading-container">
+                <h1 class="heading">Blog</h1>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-item">
+                    <a class="blog-link"
+                        href="https://medium.com/@hiteshchaudhari1998/have-smartphone-addiction-what-you-need-is-a-distraction-free-smartphone-bc43d51fc4"
+                        target="_blank">
+                        <img class="blog-image"
+                            src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*LDpZdOb0gpozZrVpTQsHEg.jpeg"
+                            alt="medium">
+                        <div class="blog-item-text-container">
+                            <p class="blog-item-text">Have Smartphone addiction? What you need is a Digital Detox.</p>
+                            <p class="blog-item-date">05.12.2018</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="blog-item">
+                    <a class="blog-link"
+                        href="https://medium.com/@hiteshchaudhari1998/how-social-media-drastically-affects-us-46f2fd076a01"
+                        target="_blank">
+                        <img class="blog-image"
+                            src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*bpjijdJZn4QfnYC6OEvsNw.png"
+                            alt="medium">
+                        <div class="blog-item-text-container">
+                            <p class="blog-item-text">How social media drastically affects us?</p>
+                            <p class="blog-item-date">08.02.2019</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- experience -->
+        <div class="project-container">
+            <div class="heading-container">
+                <h1 class="heading">Projects</h1>
+            </div>
+            <div class="project-item">
+                <div class="project-item-title-container">
+                    <p class="project-item-title">Cash Control</p>
+                    <img class="project-redirect-icon" src="assets/icons/redirect.svg" alt="redirect-icon">
+                </div>
+                <p class="project-item-subtitle">The Cash Control is the app to record, manage, and help to be aware
+                    of your finances.</p>
+                <div class="project-stack-tags">
+                    <div class="stack-tag">
+                        <p class="stack-tag-text">Flutter</p>
+                    </div>
+                    <div class="stack-tag">
+                        <p class="stack-tag-text">Sqlfite</p>
+                    </div>
+                    <div class="stack-tag">
+                        <p class="stack-tag-text">Android</p>
+                    </div>
+                    <div class="stack-tag">
+                        <p class="stack-tag-text">iOS</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-item-title-container">
+                    <p class="project-item-title">Shopwego</p>
+                    <img class="project-redirect-icon" src="assets/icons/redirect.svg" alt="redirect-icon">
+                </div>
+                <p class="project-item-subtitle">Shopwego is the community-powered shopping app where your thoughts and
+                    experiences with quality products turn into real rewards. Whether you're a curious shopper or a
+                    thoughtful content creator, Shopwego rewards you for adding value, not just for making purchases.
+                </p>
+                <div class="project-stack-tags">
+                    <div class="stack-tag">
+                        <p class="stack-tag-text">Flutter</p>
+                    </div>
+                    <div class="stack-tag">
+                        <p class="stack-tag-text">Android</p>
+                    </div>
+                    <div class="stack-tag">
+                        <p class="stack-tag-text">iOS</p>
+                    </div>
+                    <div class="stack-tag">
+                        <p class="stack-tag-text">Java</p>
+                    </div>
+                    <div class="stack-tag">
+                        <p class="stack-tag-text">Spring Boot</p>
+                    </div>
+                    <div class="stack-tag">
+                        <p class="stack-tag-text">Mysql</p>
+                    </div>
+                    <div class="stack-tag">
+                        <p class="stack-tag-text">AWS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer class="footer">
+            <p>Built by <a class="footer-link" href="https://www.linkedin.com/in/hitesh-chaudhari-0866b316b/"
+                    target="_blank">Hitesh
+                    Chaudhari.</a></p>
+            <p>The source code is available on <a class="footer-link" href="https://github.com/DevHitesh29"
+                    target="_blank">Github.</a>
+            </p>
+        </footer>
+
+    </div>
+
+
+</body>
+
+</html>
