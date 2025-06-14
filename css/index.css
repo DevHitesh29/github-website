@@ -82,6 +82,13 @@
     border-width: 1px 0px 1px 0px;
 }
 
+.profile-name {
+    align-items: center;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+}
+
 .verified-badge-icon {
     height: 24px;
 }
