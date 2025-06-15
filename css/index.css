@@ -1,14 +1,29 @@
-.main-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 768px;
-    min-width: 375px;
-    width: 100%;
-    border-style: solid;
-    border-color: var(--border-color);
-    border-width: 0px 1px 1px 1px;
+@media screen and (max-width: 480px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        border-style: solid;
+        border-color: var(--border-color);
+        border-width: 0px 1px 1px 1px;
+    }
 }
+
+@media screen and (min-width: 481px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 768px;
+        min-width: 375px;
+        width: 100%;
+        border-style: solid;
+        border-color: var(--border-color);
+        border-width: 0px 1px 1px 1px;
+    }
+}
+
 
 .profile-cover {
     height: 256px;
@@ -31,7 +46,6 @@
 }
 
 .profile {
-    height: 160px;
     width: 100%;
     background-color: var(--primary-background-color);
     display: flex;
@@ -43,8 +57,6 @@
 }
 
 .profile-image-container {
-    height: 160px;
-    width: 160px;
     border-style: solid;
     border-color: var(--border-color);
     border-width: 0px 1px 0px 0px;
@@ -54,8 +66,12 @@
     height: 160px;
     width: 160px;
     border-radius: 160px;
+    border-style: solid;
+    border-color: var(--border-color);
+    border-width: 1px;
     object-fit: cover;
     object-position: center;
+    padding: 2px;
 }
 
 .profile-info-container {
@@ -65,11 +81,10 @@
 }
 
 .profile-blank-container {
-    height: 100px;
+    flex: 1;
 }
 
 .profile-name-container {
-    height: 36px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -82,22 +97,76 @@
     border-width: 1px 0px 1px 0px;
 }
 
-.profile-name {
-    align-items: center;
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-    font-weight: 600;
+@media screen and (max-width: 480px) {
+    .profile-name-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 30px;
+        font-weight: 600;
+        padding-left: 16px;
+        height: 40px;
+
+        border-style: solid;
+        border-color: var(--border-color);
+        border-width: 1px 0px 1px 0px;
+    }
+}
+
+
+@media screen and (min-width: 481px) {
+    .profile-name-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 30px;
+        font-weight: 600;
+        padding-left: 16px;
+
+        border-style: solid;
+        border-color: var(--border-color);
+        border-width: 1px 0px 1px 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .profile-name {
+        align-items: center;
+        font-size: 16px;
+        line-height: 2.25rem;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .profile-name {
+        align-items: center;
+        font-size: 30px;
+        line-height: 2.25rem;
+        font-weight: 600;
+    }
 }
 
 .verified-badge-icon {
     height: 24px;
 }
 
-.profile-designation-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 29px;
+@media screen and (max-width: 480px) {
+    .profile-designation-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .profile-designation-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 29px;
+    }
 }
 
 #randomDesignation {
@@ -170,11 +239,22 @@
     color: var(--primary-text-color);
 }
 
-.social-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-    gap: 16px;
+@media screen and (max-width: 480px) {
+    .social-grid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 16px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .social-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        gap: 16px;
+    }
 }
 
 .social-item {
@@ -285,11 +365,22 @@
     width: 100%;
 }
 
-.blog-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-    gap: 16px;
+@media screen and (max-width: 480px) {
+    .blog-grid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 16px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .blog-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        gap: 16px;
+    }
 }
 
 .blog-item {
