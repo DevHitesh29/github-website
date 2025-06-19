@@ -268,8 +268,10 @@
     cursor: pointer;
 }
 
-.social-item:hover {
-    background-color: var(--tertiary-background-color);
+@media screen and (min-width: 481px) {
+    .social-item:hover {
+        background-color: var(--tertiary-background-color);
+    }
 }
 
 .social-item-icon {
@@ -394,8 +396,10 @@
     cursor: pointer;
 }
 
-.blog-item:hover {
-    background-color: var(--tertiary-background-color);
+@media screen and (min-width: 481px) {
+    .blog-item:hover {
+        background-color: var(--tertiary-background-color);
+    }
 }
 
 .blog-image {
@@ -411,9 +415,11 @@
     padding: 8px;
 }
 
-.blog-link:hover .blog-item-text {
-    text-decoration: underline;
-    text-underline-offset: 2px;
+@media screen and (min-width: 481px) {
+    .blog-link:hover .blog-item-text {
+        text-decoration: underline;
+        text-underline-offset: 2px;
+    }
 }
 
 .blog-item-text {
@@ -445,8 +451,10 @@
     cursor: pointer;
 }
 
-.project-item:hover {
-    background-color: var(--tertiary-background-color);
+@media screen and (min-width: 481px) {
+    .project-item:hover {
+        background-color: var(--tertiary-background-color);
+    }
 }
 
 .project-item-title-container {
@@ -456,9 +464,11 @@
     color: var(--primary-text-color);
 }
 
-.project-item:hover .project-item-title {
-    text-decoration: underline;
-    text-underline-offset: 2px;
+@media screen and (min-width: 481px) {
+    .project-item:hover .project-item-title {
+        text-decoration: underline;
+        text-underline-offset: 2px;
+    }
 }
 
 .project-item-title {
