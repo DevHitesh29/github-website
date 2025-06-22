@@ -1,0 +1,52 @@
+{
+    "projects": [
+        {
+            "id": "shopwego",
+            "title": "Shopwego",
+            "projectImage": "assets/images/shopwego_mobile.png",
+            "paragraphs": [
+                "Shop Smart. Share Insights. Get Rewarded.",
+                "Shopwego is the community powered shopping app where your thoughts and experiences with quality products turn into real rewards. Whether you're a curious shopper or a thoughtful content creator, Shopwego rewards you for adding value, not just for making purchases.",
+                "Group Buy savings. Shop together with friends or other users to unlock exclusive group discounts. It's social, smarter, and saves you more. You get rewarded for contributing. Write reviews, ask questions, or spark discussions, and you’ll earn points for every meaningful interaction. Points can then be used as discounts. Community comes first. We connect people who care about quality and making informed decisions together. Earning is easy. Whether you have followers or not, your helpful content can earn you points, discounts, and commissions.",
+                "Buy confidently, every item is vetted for quality and usefulness. Earn rewards just for asking questions or sharing opinions. Save more through friend referrals and group purchasing. Learn from other users before you make decisions. Turn everyday shopping into a rewarding experience.",
+                "Recommend any products that you support. Earn commissions when others buy through your recommendations. Get paid for generating quality discussions, even without sales. Access performance insights to grow your impact. Build your presence in a meaningful, values driven space."
+            ],
+            "tags": ["Flutter", "Android", "iOS", "Java", "Spring Boot", "Mysql", "AWS"],
+            "storeButtons": [
+                {
+                    "src": "assets/images/apple-app-store.png",
+                    "alt": "appstore-button"
+                },
+                {
+                    "src": "assets/images/google-play-store.png",
+                    "alt": "googleplay-button"
+                }
+            ],
+            "availabilityNote": "Note: The app is available in Hong Kong, Indonesia, Japan, Kuwait, Canada, Nigeria, Philippines, Qatar, Saudi Arabia, Taiwan, United Arab Emirates."
+        },
+        {
+            "id": "cash_control",
+            "title": "Cash Control",
+            "projectImage": "assets/images/shopwego_mobile.png",
+            "paragraphs": [
+                "Shop Smart. Share Insights. Get Rewarded.",
+                "Shopwego is the community powered shopping app where your thoughts and experiences with quality products turn into real rewards. Whether you're a curious shopper or a thoughtful content creator, Shopwego rewards you for adding value, not just for making purchases.",
+                "Group Buy savings. Shop together with friends or other users to unlock exclusive group discounts. It's social, smarter, and saves you more. You get rewarded for contributing. Write reviews, ask questions, or spark discussions, and you’ll earn points for every meaningful interaction. Points can then be used as discounts. Community comes first. We connect people who care about quality and making informed decisions together. Earning is easy. Whether you have followers or not, your helpful content can earn you points, discounts, and commissions.",
+                "Buy confidently, every item is vetted for quality and usefulness. Earn rewards just for asking questions or sharing opinions. Save more through friend referrals and group purchasing. Learn from other users before you make decisions. Turn everyday shopping into a rewarding experience.",
+                "Recommend any products that you support. Earn commissions when others buy through your recommendations. Get paid for generating quality discussions, even without sales. Access performance insights to grow your impact. Build your presence in a meaningful, values driven space."
+            ],
+            "tags": ["Flutter", "Sqlfite", "Android", "iOS"],
+            "storeButtons": [
+                {
+                    "src": "assets/images/apple-app-store.png",
+                    "alt": "appstore-button"
+                },
+                {
+                    "src": "assets/images/google-play-store.png",
+                    "alt": "googleplay-button"
+                }
+            ],
+            "availabilityNote": "Note: The app is available in India."
+        }
+    ]
+}

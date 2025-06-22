@@ -1,0 +1,91 @@
+@media screen and (max-width: 480px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        border-style: solid;
+        border-color: var(--border-color);
+        border-width: 0px 1px 1px 1px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 768px;
+        min-width: 375px;
+        width: 100%;
+        border-style: solid;
+        border-color: var(--border-color);
+        border-width: 0px 1px 1px 1px;
+    }
+}
+
+.project-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#project-image {
+    margin: 16px 0px 16px 0px;
+}
+
+.project-title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-style: solid;
+    border-color: var(--border-color);
+    border-width: 0px 1px 1px 1px;
+
+    font-size: 30px;
+    font-weight: 600;
+    font-family: var(--font-ibm-plex-mono);
+    color: var(--primary-text-color);
+}
+
+.project-description {
+    font-size: 14px;
+    font-weight: 300;
+    user-select: none;
+    color: var(--primary-text-color);
+    padding: 16px 16px 0px 16px;
+}
+
+.project-stack-tags {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    gap: 8px;
+    margin: 16px;
+}
+
+.store-buttons-container {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    gap: 12px;
+    margin: 0px 0px 16px 16px;
+}
+
+.store-button {
+    width: 160px;
+    object-fit: contain;
+}
+
+.project-availability-note {
+    align-self: flex-start;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic;
+    user-select: none;
+    color: var(--primary-text-color);
+    padding: 0px 16px 16px 16px;
+}
