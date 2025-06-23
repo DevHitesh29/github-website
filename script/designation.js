@@ -1,9 +1,12 @@
-const names = Array('Software Developer', 'UI/UX Designer', 'Creating with code, driven with passion');
+const names = ['Software Developer', 'UI/UX Designer', 'Creating with code, driven with passion'];
 
 function pickName() {
-    return names[Math.floor(Math.random() * names.length)]
+    return names[Math.floor(Math.random() * names.length)];
 }
 
-setInterval(function () {
-    $("#randomDesignation").text(pickName());
+setInterval(() => {
+    const el = document.getElementById("randomDesignation");
+    if (el) {
+        el.textContent = pickName();
+    }
 }, 1500);
